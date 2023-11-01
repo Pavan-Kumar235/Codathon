@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.content:hover {
+    background-color: white;
+    transition: 1s;
+}
+
+.links {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -15px -15px black;
+    color: black;
+}
+
+.links:hover {
+    background-color: rgb(22, 207, 240);
+    transition: 1s;
+    box-shadow: 15px 15px 10px 10px lightblue;
+}
+
+.links a,.links button {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: blue;
+}
+
+button {
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    transition: 0.5s;
+}
